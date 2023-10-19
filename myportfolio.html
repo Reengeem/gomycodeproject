@@ -6,14 +6,14 @@
 	<title> This is the index </title>
     <link rel="stylesheet" href="src/main.css">
 </head>
-    <body>    
-        <div>  
+    
+    <body>       
         <!---This is main part-->
         <main>
             <header>
             <nav  >
                <a href="index.html">Home</a>|
-               <a href="">About Us</a>|
+               <a href="myportfolio.html">About Us</a>|
                <a href="contact_us.html">Contact Us</a>|
                <a href="myportfolio.html">Portfolio</a>
             </nav>
@@ -21,14 +21,16 @@
         <!--This is the first section-->
         <section>
             
-            <table>
-                <tr>
-                  <th></th>
-                  <th> <h1>I am Mr Auwal and i am Full-Stack Web Developer</h1></th>
-                </tr>
-                <tr>
-                  <td><img src="images/ASANI.jpg" alt="This is Auwal's picture" style="width:300px;height:300px;"></td>
-                  <td><p><i>Contrary to popular belief, Lorem Ipsum is not simply random text.
+                  
+            <h1>I am Mr Auwal and i am Full-Stack Web Developer</h1>
+            <h3>My Introduction</h3>
+            <audio controls>
+                <source src="audio/Introduction.m4a" type="audio/ogg">
+              </audio>
+
+                
+                <!-- <td><img src="images/ASANI.jpg" alt="This is Auwal's picture" style="width:300px;height:300px;"></td> -->
+                <td><p><i>This is my story on how i became a fullstack developer Contrary to popular belief, Lorem Ipsum is not simply random text.
                     It has roots in a piece of classical Latin literature from 45 BC, 
                     making it over 2000 years old. Richard McClintock, a Latin professor
                      at Hampden-Sydney College in Virginia, looked up one of the more 
@@ -39,8 +41,13 @@
                          (The Extremes of Good and Evil) by Cicero, written in 45 BC. 
                          This book is a treatise on the theory of ethics, very popular during the Renaissance. 
                    The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</i> </p></td>
-                </tr>
-            </table>
+                
+                <h3>You can watch my video here</h3>
+                <video width="320" height="240" controls>
+                    <source src="video/portfolivideo.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                  Your browser does not support the video tag.
+                  </video>
                 
                 <p>This are the list of my <strong>Stack</strong> below</p>
         </section>
@@ -64,12 +71,12 @@
         </section>
         <!---This section is link to my tutorial videos-->
         <section>
+            <h3>You can also watch my video tutorials here</h3>
             <iframe width="853" height="480" src="https://www.youtube.com/embed/Hl7diL7SFw8?list=PLpPqplz6dKxUaZ630TY1BFIo5nP-_x-nL" title="Introduction - Full Stack Web Development Course [1] | ReactJS, NodeJS, Express, MySQL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </section>
 			<!-- this is section is for footer -->
             <footer><h4 >Copyright 2023 © Auwal Portfolio</h4></footer>
         </main>
-    </div> 
       
   </body>
 </html>
