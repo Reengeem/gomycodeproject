@@ -1,75 +1,250 @@
 <!DOCTYPE html>
 <html>
-<head> 
-    <meta charset="UTF-8">
-    <meta name="viewpoint" content="width=device-width, initial-scale"> 
-	<title> This is the index </title>
-    <link rel="stylesheet" href="src/main.css">
-</head>
-    <body>    
-        <div>  
-        <!---This is main part-->
-        <main>
-            <header>
-            <nav  >
-               <a href="index.html">Home</a>|
-               <a href="">About Us</a>|
-               <a href="contact_us.html">Contact Us</a>|
-               <a href="myportfolio.html">Portfolio</a>
-            </nav>
-        </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewpoint" content="width=device-width, initial-scale" />
+    <title>This is the index</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!---This is main part-->
+    <header>
+      <nav class="container">
+        <img src="images/phone2.png" alt="navbar logo" id="nav-logo" />
+        <ul class="nav-items">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="">About me</a></li>
+          <li><a href="contact_us.html">Contact me</a></li>
+          <li><a href="myportfolio.html">Portfolio</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="aside-section">
+      <!--Aside div comes here-->
+      <div id="aside-div">
+        <aside>
+          <div class="aside-image-div">
+            <img class="aside-image" src="images/ASANI.jpg" alt="" />
+            <h2 id="aside-image-h2" style="color: black; padding: 10px">
+              Mr Auwal
+            </h2>
+            <h4 id="aside-image-h4" style="color: red">
+              WEB DEVELOPER | ENTREPRENEUR | MILITARY
+            </h4>
+          </div>
+          <ul id="aside-link">
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">My Github</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instgram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">linkedin</a></li>
+            <!-- More related content -->
+          </ul>
+          <!-- <ul id="social-list">
+            <li>
+              <a href=""
+                ><img src="images/facebook.png" alt="" class="social-logo"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="images/twitter.png" alt="" class="social-logo"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="images/instagram.png" alt="" class="social-logo"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="images/youtube.png" alt="" class="social-logo"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="images/linkedin.png" alt="" class="social-logo"
+              /></a>
+            </li>
+          </ul> -->
+          <video src="video/portfolivideo.mp4" class="video-aside"></video>
+        </aside>
+      </div>
+      <!-- aside section finish here -->
+      <!--Sections div here-->
+      <div class="main-div">
         <!--This is the first section-->
         <section>
-            
-            <table>
-                <tr>
-                  <th></th>
-                  <th> <h1>I am Mr Auwal and i am Full-Stack Web Developer</h1></th>
-                </tr>
-                <tr>
-                  <td><img src="images/ASANI.jpg" alt="This is Auwal's picture" style="width:300px;height:300px;"></td>
-                  <td><p><i>Contrary to popular belief, Lorem Ipsum is not simply random text.
-                    It has roots in a piece of classical Latin literature from 45 BC, 
-                    making it over 2000 years old. Richard McClintock, a Latin professor
-                     at Hampden-Sydney College in Virginia, looked up one of the more 
-                     obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-                      going through the cites of the word in classical literature,
-                       discovered the undoubtable source. Lorem Ipsum comes from sections
-                        1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
-                         (The Extremes of Good and Evil) by Cicero, written in 45 BC. 
-                         This book is a treatise on the theory of ethics, very popular during the Renaissance. 
-                   The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</i> </p></td>
-                </tr>
-            </table>
-                
-                <p>This are the list of my <strong>Stack</strong> below</p>
+          <h1 id="name-h1">
+            Hi! <br />
+            I'm Mr Auwal<br />
+            A Full-Stack Web Developer
+          </h1>
+          <div id="portfolio-div">
+            <div>
+              <img
+                class="main-image"
+                src="images/asani3.jpeg"
+                alt="This is Auwal's picture"
+                style="width: 300px; height: 300px"
+              />
+            </div>
+            <div style="padding-left: 200px">
+              <h3 id="about-me">About me</h3>
+              <p>
+                <span><strong>I'm Auwal</strong></span>
+                <i
+                  >Contrary to popular belief, Lorem Ipsum is not simply random
+                  text. It has roots in a piece of classical Latin literature
+                  from 45 BC, making it over 2000 years old. Richard McClintock,
+                  a Latin professor at Hampden-Sydney College in Virginia,
+                  looked up one of the more obscure Latin words, consectetur,
+                  from a Lorem Ipsum passage, and going through the cites of the
+                  word in classical literature, discovered the undoubtable
+                  source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of
+                  "de Finibus Bonorum et Malorum" (The Extremes of Good and
+                  Evil) by Cicero, written in 45 BC. This book is a treatise on
+                  the theory of ethics, very popular during the Renaissance. The
+                  first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+                  comes from a line in section 1.10.32.</i
+                >
+              </p>
+              <div id="cv-form">
+                <a href="" id="link-cv"
+                  >DOWNLOAD CV
+                  <img
+                    id="download-image"
+                    src="images/download3.png"
+                    alt="download image"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <!-- <p>This are the list of my <strong>Stack</strong> below</p> -->
         </section>
-        <!--This is the second section-->
+        <!----------------#199319 About me section----------------->
         <section>
-            <h3>My First Stack</h3>
-            <ol> 
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JAVASCRIPT</li>
-                <li>PHP</li>
-            </ol>
-
-            <h3> My Second Stack</h3>
-            <ol>
-                <li>REACT</li>               
-                <li>NODE.JS</li>               
-                <li>MONGO DB</li>               
-            </ol>
-
+          <div id="contact-heading">
+            <h4>GET IN TOUCH</h4>
+            <h1 id="contact-me">Contact & Follow me on Social</h1>
+          </div>
         </section>
-        <!---This section is link to my tutorial videos-->
         <section>
-            <iframe width="853" height="480" src="https://www.youtube.com/embed/Hl7diL7SFw8?list=PLpPqplz6dKxUaZ630TY1BFIo5nP-_x-nL" title="Introduction - Full Stack Web Development Course [1] | ReactJS, NodeJS, Express, MySQL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div id="contact-section">
+            <div>
+              <div class="phone-loc">
+                <img
+                  src="images/email.png"
+                  alt="email address"
+                  id="email-conatact"
+                />
+                <a href="" id="email-address">auwalreengeem@gmail.com</a>
+              </div>
+              <div class="phone-loc">
+                <img
+                  src="images/phone.png"
+                  alt="email address"
+                  id="email-conatact"
+                />
+                <a href="" id="email-address">+234 80375 46268</a>
+              </div>
+              <div class="phone-loc">
+                <img
+                  src="images/location.png"
+                  alt="email address"
+                  id="email-conatact"
+                />
+                <a href="" id="email-address">No.7 Area 10 Garki Abuja</a>
+              </div>
+              <div class="phone-loc">
+                <img
+                  src="images/whatsapp.png"
+                  alt="email address"
+                  id="email-conatact"
+                />
+                <a href="" id="email-address"
+                  >+234 80375 46268, +234 8052927952</a
+                >
+              </div>
+              <div class="phone-loc">
+                <img
+                  src="images/facebook.png"
+                  alt="email address"
+                  id="email-conatact"
+                />
+                <a href="" id="email-address">Auwal Reengeem</a>
+              </div>
+              <div class="phone-loc">
+                <img
+                  src="images/instagram.png"
+                  alt="email address"
+                  id="email-conatact"
+                />
+                <a href="" id="email-address">Auwalreengeem</a>
+              </div>
+              <div class="phone-loc">
+                <img
+                  src="images/twitter.png"
+                  alt="email address"
+                  id="email-conatact"
+                />
+                <a href="" id="email-address">Auwalreengeem</a>
+              </div>
+              <div class="phone-loc">
+                <img
+                  src="images/linkedin.png"
+                  alt="email address"
+                  id="email-conatact"
+                />
+                <a href="" id="email-address">Auwalreengeem</a>
+              </div>
+            </div>
+
+            <div id="form-div">
+              <form action="">
+                <div class="contact-form">
+                  <input type="text" placeholder="Name" class="input-contact" />
+                </div>
+                <div class="contact-form">
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    class="input-contact"
+                  />
+                </div>
+                <div class="contact-form">
+                  <input
+                    type="text"
+                    placeholder="Subject"
+                    class="input-contact"
+                  />
+                </div>
+                <div class="contact-form">
+                  <input
+                    type="textarea"
+                    placeholder="Message..."
+                    id="input-contact"
+                  />
+                </div>
+                <div class="contact-form">
+                  <button type="button" id="btn-contact">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
         </section>
-			<!-- this is section is for footer -->
-            <footer><h4 >Copyright 2023 © Auwal Portfolio</h4></footer>
-        </main>
-    </div> 
-      
+      </div>
+    </div>
+    <!-- this is section is for footer -->
+    <footer class="footer-main">
+      <h4>Copyright 2023 © Auwal Portfolio</h4>
+    </footer>
   </body>
 </html>
